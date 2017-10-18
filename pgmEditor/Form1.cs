@@ -13,6 +13,7 @@ namespace pgmEditor
     public partial class Form1 : Form
     {
         string папка = "";
+        string test;
         public string папкаПроекта = "";
         public bool result;
        
