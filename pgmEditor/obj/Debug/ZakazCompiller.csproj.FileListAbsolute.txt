@@ -1,0 +1,13 @@
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\bin\Debug\xNet.dll
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\ZakazCompiller.csproj.ResolveComReference.cache
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\pgmEditor.Form1.resources
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\pgmEditor.Properties.Resources.resources
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\pgmEditor.waitForm.resources
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\ZakazCompiller.csproj.GenerateResource.Cache
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\bin\Debug\ZakazCompiller.exe.config
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\bin\Debug\ZakazCompiller.exe
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\bin\Debug\ZakazCompiller.pdb
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\ZakazCompiller.exe
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\ZakazCompiller.pdb
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\ZakazCompiller.csprojResolveAssemblyReference.cache
+C:\Users\рома\Documents\Visual Studio 2012\Projects\ZacazCompiller\pgmEditor\obj\Debug\pgmEditor.freza.resources
