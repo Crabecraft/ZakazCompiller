@@ -71,7 +71,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(15, 9);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(122, 17);
+            this.checkBox1.Size = new System.Drawing.Size(121, 17);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "вращение деталей";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -123,6 +123,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Построение заказа";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox1_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox1_DragEnter);
             this.ResumeLayout(false);

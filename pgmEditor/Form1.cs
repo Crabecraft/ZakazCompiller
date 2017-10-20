@@ -24,6 +24,27 @@ namespace pgmEditor
             load_form();
         }
 
+        public Form1(string patch)
+        {
+            InitializeComponent();
+            button1.AllowDrop = this.AllowDrop = true;
+            load_form();
+
+            string[] mass_name = patch.Split('.');
+            string TEST = mass_name[mass_name.Length - 1];
+            if ((TEST == "xls") || (TEST == "xlsm"))
+            {
+                //if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+                //{
+                //папка = folderBrowserDialog1.SelectedPath + "\\";
+                папка = "C:\\BNest_Projects\\";
+                waitForm wait = new waitForm();
+                excelReader.CreateProject(patch, папка, wait, this);
+                wait.ShowDialog();
+                //}
+            }
+        }
+
         private void listBox1_DragDrop(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop) && e.Effect == DragDropEffects.Move)
@@ -181,6 +202,11 @@ namespace pgmEditor
         {
             freza frez = new freza(this);
             frez.ShowDialog();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            WriteRotSetting();
         }
 
    
