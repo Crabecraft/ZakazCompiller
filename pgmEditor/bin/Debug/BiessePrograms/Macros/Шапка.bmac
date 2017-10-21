@@ -1,0 +1,65 @@
+BEGIN ID CID3
+	REL=5.0
+END ID
+
+
+BEGIN MAINDATA
+	'xml':<?xml version="1.0" encoding="utf-8" ?>
+	'xml':<!-- Created by bSolid -->
+	'xml':<bSolid>
+	'xml':	<Settings 
+	'xml':		MultiPanelEnabled="0"
+	'xml':		MultiPanelOrigin="1"
+	'xml':	/>
+	'xml':	<Panel>
+	'xml':		<MachinePosition 
+	'xml':			EXORIGIN="1"
+	'xml':			EXREFCORNER="1"
+	'xml':			EXOFFSETX="0"
+	'xml':			EXOFFSETY="0"
+	'xml':			EXOFFSETZ="0"
+	'xml':			EXROTX="0"
+	'xml':			EXROTY="0"
+	'xml':			EXROTZ="0"
+	'xml':			EXMIRRORX="0"
+	'xml':			EXMIRRORY="0"
+	'xml':		/>
+	'xml':	</Panel>
+	'xml':</bSolid>
+	LPX=($lpx)
+	LPY=($lpy)
+	LPZ=($lpz)
+	ORLST="1"
+	SIMMETRY=0
+	TLCHK=0
+	TOOLING=""
+	CUSTSTR=""
+	FCN=1
+	XCUT=0
+	YCUT=0
+	JIGTH=0
+	CKOP=0
+	UNIQUE=0
+	MATERIAL=""
+	PUTLST=""
+	OPPWKRS=0
+	UNICLAMP=0
+	WTPIANI=0
+	COLLTOOL=0
+	CALCEDTH=0
+	ENABLELABEL=0
+	LOCKWASTE=0
+	LOADEDGEOPT=0
+	ITLTYPE=0
+	RUNPAV=0
+	FLIPEND=0
+	ENABLEMACHLINKS=0
+	ENABLEPURSUITS=0
+	ENABLEFASTVERTBORINGS=0
+	FASTVERTBORINGSVALUE=0
+END MAINDATA
+
+
+BEGIN PUBLICVARS
+END PUBLICVARS
+
