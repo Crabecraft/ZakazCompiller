@@ -30,7 +30,7 @@ namespace pgmEditor
             {
                
 
-                string temp = File.ReadAllText("C:\\BiessePrograms\\Macros\\Шапка.bmac") + "\n"; ;
+                string temp = File.ReadAllText(Application.StartupPath +  "\\BiessePrograms\\Macros\\Шапка.bmac") + "\n"; ;
 
                 if (BiesseListData != null)
                     for (int i = 0; i < BiesseListData.Length; i++)
@@ -47,7 +47,7 @@ namespace pgmEditor
                             else
                                 nameProg = BiesseListData[i];
 
-                            string macrosPatch = "C:\\BiessePrograms\\Macros\\" + nameProg + ".bmac";
+                            string macrosPatch = Application.StartupPath + "\\BiessePrograms\\Macros\\" + nameProg + ".bmac";
                             if (!File.Exists(macrosPatch)) { MessageBox.Show("Файл: " + macrosPatch + "\n не найден."); return null; }
 
 
