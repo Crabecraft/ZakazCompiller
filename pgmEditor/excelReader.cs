@@ -32,8 +32,9 @@ namespace pgmEditor
          for (int i = 0; i < детали.Length; i++)
          {
              string homeCvet = patch + repStroka(детали[i].cvet);
-             if(!Directory.Exists(homeCvet)) Directory.CreateDirectory(homeCvet);
-             homeCvet+="\\";
+             if(!Directory.Exists(homeCvet))
+                 Directory.CreateDirectory(homeCvet);
+             //homeCvet+="\\";
 
              Detal деталь = new Detal();
              деталь.Article = "1;_art;legno;$name;$lpx;$lpy;$lpz;$rot;0;0;0";
@@ -67,10 +68,10 @@ namespace pgmEditor
                  for (int x = 1; ; x++)
                  {
                      string nameProgr = repStroka(детали[i].name) + "(" + x.ToString() + ")";
-                     if (!File.Exists(homeCvet + nameProgr + ".fkbpp"))
+                     if (!File.Exists(homeCvet + "\\" + nameProgr + ".fkbpp"))
                      {
-                         деталь.Save(homeCvet + nameProgr + ".fkbpp");
-                         File.WriteAllText(homeCvet + nameProgr + ".cix", деталь.generate());
+                         деталь.Save(homeCvet+"\\" + nameProgr + ".fkbpp");
+                         File.WriteAllText(homeCvet + "\\" + nameProgr + ".cix", деталь.generate());
                          break;
                      }
                  }
@@ -220,6 +221,8 @@ namespace pgmEditor
                      int tekColl = int.Parse(tempDsp[1]);
 
                      string cvet = "";
+                     tempDsp[0] = tempDsp[0].Trim().Replace(",", ".");
+
 
                      if (cvetStola.Length < 5)
                          switch (tempDsp[0])
