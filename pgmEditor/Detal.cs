@@ -177,8 +177,8 @@ namespace pgmEditor
 
         public void set(string ParamDetal,string ParamStol)
         {
-            Article = Article.Replace("$lpx", DX.ToString()).Replace("$lpy", DY.ToString()).Replace("$lpz", DZ.ToString());            
-            Article = Article.Replace("_art", "_" + Guid.NewGuid().ToString());
+            Article = Article.Replace("$lpx", DX.ToString()).Replace("$lpy", DY.ToString()).Replace("$lpz", DZ.ToString());
+            Article = Article.Replace("_art", "_" + Guid.NewGuid().ToString() + DateTime.Now.ToString().Replace(";", "").Replace(" ", "").Replace(".", "").Replace("/", "").Replace(":", "").Replace("\\", ""));
 
             //if (ScmData != null)
             //    for (int i = 0; i < ScmData.Length; i++)
