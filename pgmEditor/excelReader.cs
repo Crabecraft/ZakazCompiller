@@ -500,7 +500,7 @@ namespace pgmEditor
      static string repStroka(string value)
      {
          value = value.Replace("\\", "_").Replace("*", "_");
-         value = value.Replace('/', '_').Replace('.', ',');
+         value = value.Replace('/', '_').Replace('.', ',').Replace("\"", "");
          return value;
      }
 
